@@ -1,0 +1,6 @@
+[submodule "ezmot"]
+	path = ezmot
+	url = git@github.com:miuele/ezmot.git
+[submodule "eaux"]
+	path = eaux
+	url = git@github.com:miuele/eaux.git
