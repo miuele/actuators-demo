@@ -17,7 +17,7 @@ using ezmot::EasyMotor;
 
 UnbufferedSerial g_serial(CONSOLE_TX, CONSOLE_RX);
 
-DigitalOut g_air(PA_0);
+DigitalOut g_air(PA_4);
 EasyMotor<PwmOut> g_mot(PA_1, PA_3, 50us);
 
 char serial_read_char(UnbufferedSerial &ser) {
