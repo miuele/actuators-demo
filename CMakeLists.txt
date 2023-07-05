@@ -22,7 +22,6 @@ add_subdirectory(${MBED_PATH} ${CMAKE_CURRENT_BINARY_DIR}/mbed-os-binary)
 
 target_link_libraries(${APP_TARGET} ${MBED_OS_TARGET})
 
-set(CMAKE_CXX_STANDARD 14)
 mbed_set_post_build(${APP_TARGET})
 
 option(VERBOSE_BUILD "Have a verbose build process")
